@@ -1,7 +1,7 @@
 # f-strings 형식 문자열
 # f'{변수명}' 형식으로 문자열 안에 표현식을 바로 사용하여 출력한다.
 
-from datetime import datetime
+from datetime import *
 
 time = datetime.today().year
 age = datetime.today().year - 1987 + 1

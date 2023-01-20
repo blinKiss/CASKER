@@ -1,3 +1,10 @@
+# 라이브러리 설치
+# 터미널 >
+# pip install requests
+# pip install bs4
+# pip install lxml
+
+
 import requests
 from bs4 import BeautifulSoup
 
