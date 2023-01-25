@@ -13,7 +13,7 @@ class Circle:
             self.__radius = 0
             return
         
-        self.__radis = value
+        self.__radius = value
         
         
     @radius.getter
