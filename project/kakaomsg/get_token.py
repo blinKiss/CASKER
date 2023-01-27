@@ -7,8 +7,7 @@ kauth.kakao.com/oauth/authorize?client_id=${REST_API_KEY}&redirect_uri=${REDIREC
 - ${REDIRECT_URI} : https://localhost.com
 
 # 인가코드 요청 경로
-https://kauth.kakao.com/oauth/authorize?client_id=47632e41853680637b9ed27b2ed20546&redirect_uri=https://localhost.com&response_type=code
-
+https://kauth.kakao.com/oauth/authorize?client_id=e5416bc8599f67b31d6efc5d23bf72a4&redirect_uri=https://localhost.com&response_type=code
 '''
 
 
@@ -21,9 +20,9 @@ url = 'https://kauth.kakao.com/oauth/token'
 
 data = {
     'grant_type'    : 'authorization_code',
-    'client_id'     : '47632e41853680637b9ed27b2ed20546',    # REST API 키
+    'client_id'     : 'e5416bc8599f67b31d6efc5d23bf72a4',    # REST API 키
     'redirect_uri'  : 'https://localhost.com',               #
-    'code'          : '4V37M3XsbOoiZgj8CQLebbaXXIwmdGqgrbi6IvSFrKQi9OfDU9NEs4gHeSz5zha1NrPeAAorDNIAAAGF7MKzcQ'      # 인가코드                               # 인가코드
+    'code'          : '_Xwl2Z8Gs0c-RMgoXbK0Y-0-c0Gg6HXlVV5sbGAkPCkTMOs3wAi_pQqxMasmW9xwRipTBQo9dVwAAAGF8MvncA'      # 인가코드
 }
 
 response = requests.post(url, data=data)

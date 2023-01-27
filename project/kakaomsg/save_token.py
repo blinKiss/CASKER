@@ -17,6 +17,7 @@ def save_tokens(filename, tokens):
 def load_tokens(filename):
     with open(filename) as fp:
         tokens = json.load(fp)
+        print(tokens)
     
     return tokens    
         
@@ -28,7 +29,7 @@ def update_tokens(app_key, filename):
     url = 'https://kauth.kakao.com/oauth/token'
     data = {
         'grant_type'    : 'authorization_code',
-        'client_id'     : '47632e41853680637b9ed27b2ed20546',    # REST API 키
+        'client_id'     : 'e5416bc8599f67b31d6efc5d23bf72a4',    # REST API 키
         'refresh_token' : tokens['refresh_token']
     }
         
@@ -55,7 +56,7 @@ def update_tokens(app_key, filename):
 
 ############################
 
-# 토큰 저장 // 저장 완료 후 현재 save_tokens 주석걸고 갱신코드 실행
+# 토큰 저장 // 저장 후 주석
 # tokens = input('발급받은 토큰 정보 입력 : ')
 # save_tokens(KAKAO_TOKEN_FILE, tokens)
 
