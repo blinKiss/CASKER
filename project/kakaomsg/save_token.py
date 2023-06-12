@@ -29,7 +29,7 @@ def update_tokens(app_key, filename):
     url = 'https://kauth.kakao.com/oauth/token'
     data = {
         'grant_type'    : 'authorization_code',
-        'client_id'     : 'e5416bc8599f67b31d6efc5d23bf72a4',    # REST API 키
+        'client_id'     : 'e',    # REST API 키
         'refresh_token' : tokens['refresh_token']
     }
         

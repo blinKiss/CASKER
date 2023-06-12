@@ -3,7 +3,7 @@
 person = {
     'name'  : '이윤경',
     'age'   : 23,
-    'tel'   : '011-3449-2611',
+    'tel'   : '017-3449-2611',
 }
 
 print('이름 : {}, 나이 : {}, 전화번호 : {}'.format(person['name'],person['age'],person['tel']))

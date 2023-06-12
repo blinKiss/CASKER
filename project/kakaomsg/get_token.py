@@ -20,9 +20,9 @@ url = 'https://kauth.kakao.com/oauth/token'
 
 data = {
     'grant_type'    : 'authorization_code',
-    'client_id'     : 'e5416bc8599f67b31d6efc5d23bf72a4',    # REST API 키
+    'client_id'     : 'd',    # REST API 키
     'redirect_uri'  : 'https://localhost.com',               #
-    'code'          : '_Xwl2Z8Gs0c-RMgoXbK0Y-0-c0Gg6HXlVV5sbGAkPCkTMOs3wAi_pQqxMasmW9xwRipTBQo9dVwAAAGF8MvncA'      # 인가코드
+    'code'          : 'q'      # 인가코드
 }
 
 response = requests.post(url, data=data)

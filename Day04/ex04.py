@@ -49,7 +49,7 @@ class Student:
 
 s1 = Student('이미지', 15, '011-1383-3428')
 s2 = Student('김유리', 23, '010-****-0513')
-s3 = Student('조은지', 16, '010-3848-9283')
+s3 = Student('조은지', 16, '016-3848-9283')
 
 print('{}명의 학생이 참여하였습니다'.format(Student.count))
 
